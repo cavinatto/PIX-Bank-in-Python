@@ -2,13 +2,8 @@
 This project simulates a simple banking system using **Object-Oriented Programming (OOP)**. It allows clients to perform PIX transactions, including deposits, withdrawals, and transfers. The goal is to practice OOP concepts such as classes, encapsulation, and object interaction.
 
 ## How It Works
-
-### System Structure
-
 - **Cliente Class**: Represents a bank client with attributes like name, CPF, balance, and transaction history. This class allows for deposits, withdrawals, and PIX transactions.
-
 - **Pix Class**: Represents a PIX transaction involving a sender, a recipient, and an amount. The `Pix` class handles the transfer between clients and updates the transaction histories of the involved clients.
-
 - **Transactions**: A client can perform a PIX transfer to another client, where the sender's balance is debited, and the recipient's balance is credited. Each client's statement is updated with the transaction.
 
 

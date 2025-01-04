@@ -13,16 +13,16 @@ This project simulates a simple banking system using **Object-Oriented Programmi
 This project was developed using **Object-Oriented Programming (OOP)** principles, which provide an organized, modular, and maintainable structure. The key OOP concepts applied are:
 
 - **Classes and Objects**:
-  - The entities in the system are represented by **classes**, such as `Client` and `Pix`. Each client and each transaction is an **object** of these classes, encapsulating their data and behaviors.
+  - The entities in the system are represented by **classes**, such as `Cliente` and `Pix`. Each client and each transaction is an **object** of these classes, encapsulating their data and behaviors.
 
 - **Encapsulation**:
-  - The `Client` class has private attributes (such as `__cpf`, `__balance`, and `__statement`) that can only be accessed or modified via public methods. This ensures that a client's internal data is protected from unauthorized changes.
+  - The `Cliente` class has private attributes (such as `__cpf`, `__saldo`, and `__extrato`) that can only be accessed or modified via public methods. This ensures that a client's internal data is protected from unauthorized changes.
 
 - **Methods**:
-  - The classes have **methods** that define the behavior of objects. For example, the `deposit()` method adds balance to a client, while the `make_pix()` method executes a PIX transfer.
+  - The classes have **methods** that define the behavior of objects. For example, the `depositar()` method adds balance to a client, while the `realizar_pix()` method executes a PIX transfer.
 
 - **Interaction Between Objects**:
-  - The interaction between `Client` and `Pix` objects allows clients to perform transactions. The `Pix` object handles the transfer, updating the balance of the involved clients and recording the transaction in their statements.
+  - The interaction between `Cliente` and `Pix` objects allows clients to perform transactions. The `Pix` object handles the transfer, updating the balance of the involved clients and recording the transaction in their statements.
 
 - **Modularity**:
-  - The code is divided into separate files, each responsible for a specific functionality: `client.py` (for the `Client` class), `pix.py` (for the `Pix` class), and `main.py` (for the main program control). This makes the code easier to read and maintain.
+  - The code is divided into separate files, each responsible for a specific functionality: `client.py` (for the `Cliente` class), `pix.py` (for the `Pix` class), and `main.py` (for the main program control). This makes the code easier to read and maintain.
